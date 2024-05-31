@@ -1,0 +1,9 @@
+#example with deprectated version and missing tags
+_format_version: "2.1"
+services:
+  - name: my-service-name
+    host: example.com
+    routes:
+      - name: my-route
+        paths:
+          - /my-path
