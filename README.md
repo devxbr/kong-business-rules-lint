@@ -16,7 +16,9 @@ Este projeto é responsável por realizar a verificação e validação das regr
 ## Uso
 1. Adicione as regras de negócio do Kong no arquivo `rulesset.yml`
 2. Execute o lint: `docker build .`
-3. Verifique os relatórios de erros e avisos gerados no diretório `reports`
+3. Verifique os relatórios de erros e avisos gerados no `terminal`
+
+![output](image.png)
 
 ## Contribuição
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
