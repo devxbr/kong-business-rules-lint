@@ -1,6 +1,5 @@
-FROM kong:3.6.1-ubuntu
+FROM kong/deck:latest
 
-COPY --from=kong/deck:latest /usr/local/bin/deck /usr/local/bin/deck
 COPY * /
 
 ## example of validated file
